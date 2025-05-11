@@ -1,0 +1,34 @@
+body {
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #F5EBE0;
+    color: #2b2839;
+    border-bottom: 7px solid #D6CCC2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;  
+}
+.card:hover{
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5), 
+             -1px -1px 1px rgba(255,255,255,0.3);
+}
